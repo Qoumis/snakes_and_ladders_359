@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<script src="js/initGame.js"></script>
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="js/dice.js"></script>
+
+</head>
+<body onload=newGame()>
+
+
+<table class="side-by-side" id="mainTable" > <!--Game Board-->
+</table>
+
+<div class="side-by-side">                   <!--Info box and dice to the right-->
+    <label for="infoBox">Info Box</label>
+
+    <div  id="infoBox">                     <!-- Info box container-->
+        <div id="status"> </div>  <br>
+        <div id="turn"> Player 1 : <input type="text" id="p1"> </div>     <br>
+        <div id="pyeffect"> Player 2 : <input type="text" id="p2"> </div> <br>
+        <div id="message"><input type="submit" onclick="startGame()"> <span id='error' style='color: red'></span></div>
+        <img src="../ImagesDice/dice.gif" id="gif">
+    </div>
+    <br>
+
+    <div style="display: flex">             <!-- Dice button & image-->
+        <button id="btn" onclick="play()">Roll the dice</button>
+        <img src="../ImagesDice/dice.gif" id="dice">
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>
+
+

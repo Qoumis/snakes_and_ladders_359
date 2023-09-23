@@ -1,0 +1,67 @@
+
+table,td {padding: 0px; margin: 0px; cellspacing: 0; cellpadding:0;
+ border-collapse:collapse; border-spacing: 0px;  border:none;
+}
+img { display:block;   }
+
+#infoBox{
+    background-color: #c2c2c2;
+    margin-left: 100px;
+    width: 350px;
+    height: 250px;
+    border: 2px solid ;
+    position: relative;
+    font-family: Gadugi;
+    display: block;
+}
+
+.side-by-side{
+    display: inline-grid;
+}
+
+label{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    width: 23%;
+    height: 25%;
+    color: white;
+    font-weight: bold;
+    background-color: #538fbe;
+    margin-left: 100px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#dice{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#gif{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+#status, #message{
+    text-align: center;
+    margin-top: 5px;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+#turn, #pyeffect{
+    margin-left: 8px;
+}
+
